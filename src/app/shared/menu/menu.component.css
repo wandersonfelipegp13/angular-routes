@@ -1,0 +1,23 @@
+.menu-container {
+  padding: 8px;
+  width: 100%;
+}
+
+.menu-container > ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu-container > ul > li {
+  margin: 0 8px;
+}
+
+.menu-container > ul > li > a {
+  padding: 8px;
+  color: #AAA;
+}
+
+.activated {
+  background-color: #111;
+}

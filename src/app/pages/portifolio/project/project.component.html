@@ -1,0 +1,11 @@
+<div class="container-project">
+  <a [routerLink]="['/portfolio']" class="project-go-back">&#8592;</a>
+  <div class="project-image">
+    <img
+      src="{{ image != '' ? image : 'https://api.lorem.space/image/movie' }}"
+    />
+  </div>
+  <p class="project-title"> {{title }}</p>
+  <p class="project-techs">Tecnologias: {{ technologies }}</p>
+  <a class="project-link" target="_blank" href="{{ link }}">GitHub</a>
+</div>

@@ -1,0 +1,13 @@
+<div class="container-card-list">
+  <app-card
+    *ngFor="let card of data"
+    id="{{ card.id }}"
+    title="{{ card.title }}"
+    link="{{ card.link }}"
+    image="{{
+      card.image != '' ? card.image : 'https://api.lorem.space/image/movie'
+    }}"
+    technologies="{{ card.technologies }}"
+  ></app-card>
+</div>
+

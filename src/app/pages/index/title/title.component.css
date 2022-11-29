@@ -1,0 +1,40 @@
+.title-container {
+  width: 100%;
+  display: flex;
+}
+
+.title-container > div {
+  margin: 8px auto;
+}
+
+.ascii-art {
+  color: #CCC;
+}
+
+#terminal-line {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#cursor-line {
+  color: rgb(0, 128, 0);
+  margin-right: 8px;
+}
+
+#cursor-command {
+  color: #CCC;
+}
+
+.cursor {
+  width: 10px;
+  height: 18px;
+}
+
+.cursor-on {
+  background-color: #CCC;
+}
+
+.cursor-off {
+  opacity: 0;
+}

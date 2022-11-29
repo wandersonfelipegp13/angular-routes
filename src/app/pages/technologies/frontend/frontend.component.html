@@ -1,0 +1,17 @@
+<div class="container-front-techs">
+  <img
+    *ngFor="let tech of frontTechs"
+    id="{{ tech.id }}"
+    src="{{
+      'https://img.shields.io/badge/' +
+        tech.name +
+        '-' +
+        '4614db' +
+        '?style=for-the-badge&logo=' +
+        tech.name +
+        '&logoColor=FFF'
+    }}"
+    alt="{{ tech.name }}"
+    title="{{ tech.name }}"
+  />
+</div>

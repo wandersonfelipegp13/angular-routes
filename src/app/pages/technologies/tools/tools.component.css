@@ -1,0 +1,20 @@
+.container-tools {
+  width: fit-content;
+  margin: 16px auto;
+}
+
+.container-tools > ul {
+  display: flex;
+  gap: 16px;
+}
+
+.container-tools > ul li a {
+  color: #fff;
+  padding: 8px;
+  background-color: rgb(88, 61, 185);
+  transition: all 0.4s;
+}
+
+.container-tools > ul li a:hover {
+  filter: brightness(1.4);
+}

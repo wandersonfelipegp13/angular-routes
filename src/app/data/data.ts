@@ -12,7 +12,7 @@ export const Data = [
     title: 'YouService',
     image: 'https://i.ibb.co/HFLZPdL/You-Service-Banner.png',
     link: 'https://github.com/wandersonfelipegp13/youservice-frontend',
-    technologies: ['React', 'Django'],
+    technologies: ['React'],
   },
   {
     id: '3',
@@ -20,7 +20,7 @@ export const Data = [
     image:
       'https://raw.githubusercontent.com/treinaweb/workshop-myteacher-react/main/public/imagens/myteacher.png',
     link: 'https://github.com/wandersonfelipegp13/myteacher-frontend',
-    technologies: ['Java', 'Spring'],
+    technologies: ['React', 'Next.js', 'Django'],
   },
   {
     id: '4',
